@@ -1,7 +1,7 @@
 const Student = require("./Student");
 const fs = require("fs");
 
-class StudentDataReader {
+class StudentDataReader { // instead of current, we can change to module.exports = class StudentDataReader and remove last line
     constructor(fileName) {
         this.fileName = fileName;
     }

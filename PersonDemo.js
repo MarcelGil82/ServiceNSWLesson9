@@ -1,9 +1,12 @@
 const path = require("path");
 const StudentDataReader = require("./StudentDataReader");
+const TeacherDataReader = require("./TeacherDataReader");
 
-let _studentData = new StudentDataReader(path.join(__dirname, "Students.json"));
+// let _studentData = new StudentDataReader(path.join(__dirname, "Students.json"));
 
-console.log(_studentData.getStudent('bf37e12c-dade-4197-bd4f-c0bb16bc7805'));
+// console.log(_studentData.getStudent('bf37e12c-dade-4197-bd4f-c0bb16bc7805'));
+
+// teacher id - 4ceb3932-a7c8-49ea-8733-064e88b7d946
 
 // let teachers = Teacher.generateRandomPeople(10);
 // let students = Student.generateRandomPeople(100, teachers.map(teacher => teacher.id));
